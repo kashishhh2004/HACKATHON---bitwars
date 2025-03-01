@@ -87,3 +87,4 @@ Once the platform is set up:
 Capture Gesture: Point your camera at a sign language gesture and the system will interpret it into text.
 Speech Recognition: Speak into the microphone, and the speech-to-text system will convert your speech into text for display.
 Browse ISL Symbols: Use the ISL Image Gallery to learn signs and gestures.
+VIEW OUR PROJECT -https://drive.google.com/file/d/1MxtDzWb9KPWuG9ZcSUNr83ge56XCq3_C/view?usp=sharing
