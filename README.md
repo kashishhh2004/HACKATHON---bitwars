@@ -25,51 +25,49 @@ User-Friendly Interface: Easy-to-navigate interface for quick gesture recognitio
 Real-Time Interaction: Enables communication in real-time via gestures or speech.
 Technologies Used
 Frontend: HTML, CSS, JavaScript
+
 Backend & Machine Learning: Flask (Python framework), TensorFlow (Keras), NumPy, OpenCV
+
 Deployment: Flask API
+
 Other Tools: Mediapipe for hand gesture detection
+
 System Flow
 Here’s a flowchart that outlines how the Sign Language Recognition system works:
 
 Start - The system begins.
+
 Capture Image from Camera - A user captures a gesture using the camera.
+
 Pre-process Image - The image is pre-processed (e.g., resized and normalized) for model input.
+
 Send Image to Backend - The processed image is sent to the backend server.
+
 Model Predicts Gesture - The model predicts the gesture based on the image.
+
 Display Prediction Result - The predicted result (text) is shown to the user.
+
 Speech-to-Text Recognition - If there is speech input, it is converted into text for further interaction.
+
 End - The process ends.
+
 Installation
+
 Follow these steps to set up SignLy locally:
 
 Prerequisites
-Python 3.8 or higher
-Flask
-TensorFlow
-OpenCV
-NumPy
-Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/signly.git
-cd signly
-Install Dependencies
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Set Up Environment
-Make sure to set up the environment variables as needed (e.g., Flask configuration).
 
-Running the Application
-Start the Flask server:
+Python 3.8 or higher,
 
-bash
-Copy
-Edit
-python app.py
-Now, you can access the application at http://localhost:5000.
+Flask,
+
+TensorFlow,
+
+OpenCV,
+
+NumPy,
+
+
 
 Modules
 1. Image Gallery
@@ -87,4 +85,6 @@ Once the platform is set up:
 Capture Gesture: Point your camera at a sign language gesture and the system will interpret it into text.
 Speech Recognition: Speak into the microphone, and the speech-to-text system will convert your speech into text for display.
 Browse ISL Symbols: Use the ISL Image Gallery to learn signs and gestures.
+
+
 VIEW OUR PROJECT -https://drive.google.com/file/d/1MxtDzWb9KPWuG9ZcSUNr83ge56XCq3_C/view?usp=sharing
